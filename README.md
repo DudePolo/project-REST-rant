@@ -17,15 +17,15 @@ REST-Rant is an app where users can review restaurants.
 | GET | * | 404 page (matches any route not defined above) |
 
 
-[x] Project setup, stub three routes, and creating a README file
-[] Stub remaining GET and POST routes, planning mock restaurant data, drawing wireframes, and making your first view
-[] Making more views, creating a layout page, and expanding your README
-[] Adding some style with CSS
-[] Forms, validation, and navigation
-[] Implementing delete functionality and adding a DELETE route
-[] Implementing edit form and functionality, adding a PUT route
-[] Implementing the Mongoose ODM
-[] Seed data, validations, and helper methods
-[] Adding commentary: rants and raves
-[] Populating data for star ratings
-[] Deploying your project
+- [x] Project setup, stub three routes, and creating a README file
+- [] Stub remaining GET and POST routes, planning mock restaurant data, drawing wireframes, and making your first view
+- [] Making more views, creating a layout page, and expanding your README
+- [] Adding some style with CSS
+- [] Forms, validation, and navigation
+- [] Implementing delete functionality and adding a DELETE route
+- [] Implementing edit form and functionality, adding a PUT route
+- [] Implementing the Mongoose ODM
+- [] Seed data, validations, and helper methods
+- [] Adding commentary: rants and raves
+- [] Populating data for star ratings
+- [] Deploying your project
