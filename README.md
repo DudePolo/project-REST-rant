@@ -2,6 +2,14 @@
 
 REST-Rant is an app where users can review restaurants.
 
+## Tech Usage
+**CSS Framework:**  Bootstrap
+**Stack:**  MongoDB, Express, NodeJS
+**Server-Side Rendering:**  JSX
+**Node Modules:**  method-overried, dotenv, express-react-views
+
+## Routes
+
 | Method | Path | Purpose |
 | --- | --- | --- |
 | GET | / | Home page |
@@ -16,6 +24,39 @@ REST-Rant is an app where users can review restaurants.
 | DELETE | /places/:id/rant/:rantId | Delete a rant (comment) about a particular place |
 | GET | * | 404 page (matches any route not defined above) |
 
+## Database
+
+### places
+| Field | Type |
+| --- | --- |
+| _id | Object ID |
+| name | String |
+| city | String |
+| state | String |
+| cuisines | String |
+| pic | String |
+
+### rants
+| Field | Type |
+| --- | --- |
+| _id | Object ID |
+| place_id | ref(places) Object_Id |
+| rant | Boolean |
+| rating | Number |
+| comment | String |
+| reviewer | String |
+
+## Planning
+### User Stories
+TBD
+### Wireframes
+TBD
+
+## Notes
+#### Possible bonus ideas:
+    - Update for comments
+    - Aggregate rating for a place
+    - Auto-complete state dropdown
 
 - [x] Project setup, stub three routes, and creating a README file
 - [] Stub remaining GET and POST routes, planning mock restaurant data, drawing wireframes, and making your first view
