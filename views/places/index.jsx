@@ -19,7 +19,7 @@ function index (data) {
           </main>
       </Def>
   )
-  }
+}
 
 module.exports = index
   
