@@ -61,7 +61,7 @@ TBD
 - [x] Project setup, stub three routes, and creating a README file
 - [x] Stub remaining GET and POST routes, planning mock restaurant data, drawing wireframes, and making your first view
 - [x] Making more views, creating a layout page, and expanding your README
-- [] Adding some style with CSS
+- [x] Adding some style with CSS
 - [] Forms, validation, and navigation
 - [] Implementing delete functionality and adding a DELETE route
 - [] Implementing edit form and functionality, adding a PUT route
