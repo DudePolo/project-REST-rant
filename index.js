@@ -10,6 +10,8 @@ app.use(express.static('public'))
 
 // Controllers & Routes
 app.use('/places', require('./controllers/places'))
+app.use(express.urlencoded({ extended: true }))
+
 
 app.get('/', function (req, res)  {
     res.render('home')
