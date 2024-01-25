@@ -63,7 +63,7 @@ TBD
 - [x] Making more views, creating a layout page, and expanding your README
 - [x] Adding some style with CSS
 - [x] Forms, validation, and navigation
-- [] Implementing delete functionality and adding a DELETE route
+- [x] Implementing delete functionality and adding a DELETE route
 - [] Implementing edit form and functionality, adding a PUT route
 - [] Implementing the Mongoose ODM
 - [] Seed data, validations, and helper methods
