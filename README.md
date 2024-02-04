@@ -64,8 +64,8 @@ TBD
 - [x] Adding some style with CSS
 - [x] Forms, validation, and navigation
 - [x] Implementing delete functionality and adding a DELETE route
-- [] Implementing edit form and functionality, adding a PUT route
-- [] Implementing the Mongoose ODM
+- [x] Implementing edit form and functionality, adding a PUT route
+- [x] Implementing the Mongoose ODM
 - [] Seed data, validations, and helper methods
 - [] Adding commentary: rants and raves
 - [] Populating data for star ratings
