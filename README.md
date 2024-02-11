@@ -66,7 +66,7 @@ TBD
 - [x] Implementing delete functionality and adding a DELETE route
 - [x] Implementing edit form and functionality, adding a PUT route
 - [x] Implementing the Mongoose ODM
-- [] Seed data, validations, and helper methods
-- [] Adding commentary: rants and raves
-- [] Populating data for star ratings
-- [] Deploying your project
+- [x] Seed data, validations, and helper methods
+- [x] Adding commentary: rants and raves
+- [x] Populating data for star ratings
+- [x] Deploying your project
