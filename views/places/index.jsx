@@ -15,9 +15,6 @@ function index (data) {
             {place.cuisines}
           </p>
           <img className ="imageIndex" src={place.pic} alt={place.name}/>
-          <div className="text-center">
-            Photo by <a href={place.cred}>{place.credName}</a> on <a href={place.photoLink}>Unsplash</a>
-          </div>
           <p className="text-center">
             Located in {place.city}, {place.state}
           </p>

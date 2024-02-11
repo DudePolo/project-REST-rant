@@ -1,6 +1,9 @@
 const router = require('express').Router()
 const db = require('../models')
+const methodOverride = require('method-override')
+const mongoose = require('mongoose')
 
+router.use(methodOverride('_method'))
 
 router.get('/', (req, res) => {
   db.Place.find()
@@ -63,8 +66,8 @@ router.delete('/:id', (req, res) => {
     .catch(err => {
       console.log('err', err)
       res.render('error404')
-    })
-})
+    });
+});
 
 router.get('/:id/edit', (req, res) => {
   db.Place.findById(req.params.id)

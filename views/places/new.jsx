@@ -27,7 +27,7 @@ function new_form () {
                         <input className="form-control" id="state" name="state" />
                     </div>
                     </div>
-                    <div className="row">
+                    <div className="form-group">
                         <label htmlFor="cuisines">Cuisines</label>
                         <input className="form-control" id="cuisines" name="cuisines" required />
                     </div>
